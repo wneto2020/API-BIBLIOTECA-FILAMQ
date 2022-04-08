@@ -1,3 +1,10 @@
+<<<<<<< HEAD
 .env
 .idea
 __pycache__/
+=======
+.idea
+.env
+__pycache__
+
+>>>>>>> 47c62d2bdf023b80b2dac021d6fdf24538ce718f
