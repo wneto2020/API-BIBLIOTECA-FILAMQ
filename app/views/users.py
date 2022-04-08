@@ -82,7 +82,7 @@ def delete_obras(id):
         return jsonify({'message': 'Unable to request', 'data': {}}), 500
 
 
-def request_email():
+"""def request_email():
     books = Books.query.all()
     email = request.json["email"]
     if books:
@@ -90,4 +90,4 @@ def request_email():
         Send.send(body=json.dumps({"email": email, "books": result}))
         return jsonify({"Message": "successfully request", "data": result}), 200
 
-    return jsonify({'message': 'Unable to request', 'data': {}}), 500
+    return jsonify({'message': 'Unable to request', 'data': {}}), 500"""
